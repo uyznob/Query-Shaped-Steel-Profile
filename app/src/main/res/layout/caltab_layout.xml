@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/recButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình chữ nhật"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/circButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình tròn"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/pipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình vành khăn"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/tubeButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình ống hộp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/ibeamButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình chữ I"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/channelButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình chữ C"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/doubleangleButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Hình chữ L kép"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>

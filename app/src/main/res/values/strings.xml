@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tiết diện</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4536704022247728/5966958693</string>
+
+    // Bảng dử liệu
+    <string name="h">h \n(mm)</string>
+    <string name="b">b \n(mm)</string>
+    <string name="d">d \n(mm)</string>
+    <string name="D">D \n(mm)</string>
+    <string name="t">t \n(mm)</string>
+    <string name="A">A \n(cm<sup><font size="10">2</font></sup>)</string>
+    <string name="p">p \n(kg/m)</string>
+    <string name="socay">Số cây\nmột bó</string>
+    <string name="pc">p \n(kg/cây)</string>
+    <string name="dkn">Đường kính ngoài (mm)</string>
+    <string name="sohieu">Số hiệu</string>
+    <string name="sohieu_gkdc">Số hiệu \n(HxWxT)</string>
+    <string name="sohieu_hhp">Số hiệu \n(HxW)</string>
+    <string name="chunhat">Hình chử nhật</string>
+    <string name="tron">Hình tròn</string>
+    <string name="vanhkhan">Hình vành khăn</string>
+    <string name="hop">Hình hộp</string>
+    <string name="chui">Hình chữ I</string>
+    <string name="chuc">Hình chữ C</string>
+    <string name="chul">Hình chữ L kép</string>
+    <string name="deucanh">Thép góc đều cạnh cán nóng \n(TCVN 1656-1993)</string>
+    <string name="khongdeucanh">Thép góc không đều cạnh cán nóng \n(TCVN 1657-1993)</string>
+    <string name="canchui">Thép cán dạng chữ I\n(TCVN 1655-1975)</string>
+    <string name="canchuc">Thép cán dạng chữ C\n(TCVN 1655-1975)</string>
+    <string name="ong">Thép ống VINAPIPE</string>
+    <string name="onghoaphat">Thép ống tròn đen, tôn mạ kẽm \nHòa Phát (TCVN 3783-83)</string>
+    <string name="hophoaphat">Thép hộp, tôn mạ kẽm \nHòa Phát (ASTM A500), Ô Van (TC 01-2001)</string>
+    <string name="ongvietduc">Thép ống tròn, tôn mạ kẽm Việt Đức</string>
+    <string name="hopvietduc">Thép hộp, tôn mạ kẽm Việt Đức</string>"
+    <string name="ongmakemminhngoc">Thép ống tròn mạ kẽm hoặc đen Minh Ngọc</string>"
+    <string name="hopmakemminhngoc">Thép hộp mạ kẽm hoặc đen Minh Ngọc</string>"
+
+    <string name="tsdauvao">Thông số đầu vào</string>
+    <string name="tsdaura">Thông số đầu ra</string>
+    <string name="back">Quay lại</string>
+    <string name="tinhtoan">Tính toán</string>
+
+    <string name="chuthich1">
+        a. A Diện tích tiết diện\n
+        b. Ix Moment quán tính quanh trục X\n
+        c. Ixg Moment quán tính quanh trục đi qua trọng tâm G và song song với trục X\n
+        d. Iy Moment quán tính quanh trục Y\n
+        e. Iyg Moment quán tính quanh trục đi qua trọng tâm G và song song với trục Y\n
+        f. Xg Khoảng cách từ trọng tâm đến trục X\n
+        g. Yg Khoảng cách từ trọng tâm đến trục Y\n
+        h. p (kg/m) Khối lượng một mét\n
+        i. p (kg/cây) Khối lượng một cây\n
+        j. LG Hình lục giác\n
+        k. OV Hình ô van\n
+        l. Nếu số lượng cây là 0 nghĩa là trong catalogue không đề cập\n
+        m. Các thông số ở phần tra bảng được trích từ các catalogue ở trên web của các nhà sản xuất và giáo trình\n
+    </string>
+
+
+    <string name="chuthich2">
+            Im = Io + A*d<sup><font size="10">2</font></sup>\n
+            Trong đó:\n
+            Im Moment quán tính quanh trục mới\n
+            Io Moment quán tính quanh trục đi qua trọng tâm\n
+            A Diện tích tiết diện\n
+            d Khoảng cách giữa hai trục\n
+    </string>
+</resources>

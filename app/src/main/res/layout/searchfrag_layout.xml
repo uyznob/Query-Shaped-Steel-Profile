@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tgdcButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/deucanh"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/tgkdcButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/khongdeucanh"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/iButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/canchui"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/cButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/canchuc"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/ohpButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/onghoaphat"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/hhpButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hophoaphat"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/ovdButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ongvietduc"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/hvdButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hopvietduc"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/omkmnButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_big"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ongmakemminhngoc"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/hmkmnButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hopmakemminhngoc"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/oButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ong"
+            android:textAlignment="center" />
+    </LinearLayout>
+</ScrollView>

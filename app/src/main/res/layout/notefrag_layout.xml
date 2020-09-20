@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_dim"
+        android:paddingRight="@dimen/padding_dim"
+        android:paddingTop="@dimen/padding_dim">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Chú thích các kí hiệu:"
+            android:textSize="@dimen/header_size"
+            android:background="@color/black_light"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chuthich1"
+            android:textSize="@dimen/text_size"
+            android:paddingLeft="@dimen/padding_dim"
+            android:layout_alignParentLeft="true"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Công thức đổi trục cho moment quán tính:"
+            android:textSize="@dimen/header_size"
+            android:background="@color/black_light"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chuthich2"
+            android:textSize="@dimen/text_size"
+            android:paddingLeft="@dimen/padding_dim"
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>

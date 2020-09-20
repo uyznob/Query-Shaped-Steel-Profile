@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_dim"
+    android:paddingRight="@dimen/padding_dim">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/pic_size"
+            android:layout_height="@dimen/pic_size"
+            android:layout_gravity="center"
+            android:contentDescription="TODO"
+            android:src="@drawable/ibeam" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_light"
+            android:text="@string/tsdaura"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/header_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="h (cm)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/hEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="w (cm)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/wEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="tw (cm)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/twEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="tf (cm)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/tfEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_light"
+            android:text="@string/tsdaura"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/header_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="A (cm^2)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/areaEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:clickable="false"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Ix (cm^4)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/ixEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:clickable="false"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Iy (cm^4)"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/iyEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:clickable="false"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:onClick="onBackButtonClick"
+                android:text="@string/back"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/calcButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/tinhtoan"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
